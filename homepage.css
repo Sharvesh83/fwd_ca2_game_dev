@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0   ;
+}
+
+body{
+    background-image: url(./Assets/casino-chips-dice-green-table_23-2147881287.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px 800px;
+}
+
+body>#welcomecontainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 1.5cm;
+}
+
+#welcome{
+    height: 1.8cm;
+    width: 15cm;
+}
+#inputcontainer{
+    font-size: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input {
+    width: 2vw;
+    height: 7vh;
+    font-size: 2vw;
+    border-radius: 10px;
+  }
+
+.rules_icon{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    opacity: 0.85;
+    width: 600px;
+    height: 540px;
+    margin: 100px 100px 0px 500px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+#proceedbutton{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+}
+.button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logincontainer{
+    background-color: antiquewhite; 
+    opacity: 0.85;
+    width: 900px;
+    height: 540px;
+    margin: 100px 100px 0px 290px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+.homeicon{
+    height: fit-content;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: fit-content;
+}
+
+.nameinput{
+    font-size: 1cm;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nameinputbox{
+    width: 8cm ;
+    height: 1cm;
+}
+
+#names{
+    padding-left: 40px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.rulesheadcontainer{
+    display: flex;
+    justify-content: center;
+}
+ol{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#rules{
+    justify-content: center;
+    padding-left: 10px;     
+}
+
+.header{
+    height: 50px;
+    width: 700px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 50px;
+}
+.headercontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.headericon{
+    height: 50px;
+}
+

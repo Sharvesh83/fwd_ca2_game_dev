@@ -1,0 +1,166 @@
+*{
+    margin: 0   ;
+    padding-left: 10px  ;
+}
+
+body{
+    background-image: url(./Assets/casino-chips-dice-green-table_23-2147881287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headericon{
+    height: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;    
+}
+.headercontainer{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 1.5cm;
+}
+#roundcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#gamebox{
+    padding-left: 40px;
+    width: 45%;
+    background-color: antiquewhite;
+    opacity: 0.75;
+    height: 600px;
+    padding-top: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px; 
+    display: grid;
+}
+
+.gameovercontainer{
+    padding-left: 30px;
+}
+#dicebox{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    position: absolute;
+    right: 160px;
+    bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.75);
+    border-radius: 30%; 
+
+}
+#gamecontainer{
+    position: relative;
+}
+#diceinnerbox{
+    height: 137px;
+    width: 137px;
+    display: flex;
+    justify-content: center;
+}
+
+#dice{
+    border-radius: 20%;
+}
+
+#double{
+    display: none;
+    padding-left: 40px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#triple{
+    display: flex;
+    padding-left: 40px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#four{
+    display: none;
+    padding-left: 40px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#player1, #player2, #player3, #player4{
+    height: 50px;
+    width: 500px; ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#player1name, #player2name, #player3name, #player4name{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bet1box, #bet2box, #bet3box, #bet4box{
+    width: 60px;
+    height: 16px;
+}
+
+#player1betbox, #player2betbox, #player3betbox, #player4betbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player1bet, #player2bet, #player3bet, #player4bet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bet1, #bet2, #bet3, #bet4{
+    height: 22px;
+}
+#bankbalance1, #bankbalance2, #bankbalance3, #bankbalance4{
+    height: 22px;
+    width: 45px;
+    /* background-color: aqua; */
+}
+button{
+    font-size: 40px;
+    width: max-content;
+}
+#d1, #d2, #d3, #d4, #d5, #d6{
+    border-radius: 20%;
+}
+#d1{
+    display: none;
+}
+#d2{
+    display: none;
+}
+#d3{
+    display: none;
+}
+#d4{
+    display: none;
+}
+#d5{
+    display: none;
+}
+#d6{
+    display: none;
+}
